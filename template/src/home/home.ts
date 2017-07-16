@@ -2,6 +2,7 @@ import Vue from 'vue';
 import Component from 'vue-class-component';
 
 @Component({
+    name: 'home',
     template: require('./home.html')
 })
 export class HomeComponent extends Vue {
